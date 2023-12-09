@@ -15,8 +15,9 @@ pygame.display.set_icon(icono)
 
 #Creacion de posicion de la manzana
 def comida():
-    random_pos = random.randint(5,45)*10
-    manzana_pos = [random_pos,random_pos]
+    random_pos1 = random.randrange(5,45)*10
+    random_pos2 = random.randrange(5, 45) * 10
+    manzana_pos = [random_pos1,random_pos2]
     return manzana_pos
 
 #Creacion de pantalla de juego
